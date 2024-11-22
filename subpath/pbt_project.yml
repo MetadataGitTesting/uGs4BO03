@@ -1,0 +1,139 @@
+name: garth.lehner
+description: Team-oriented
+version: 0.0.1
+author: s7srfxv3.a11blkm6@t6u5rkyp.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-11-22 23:05:46'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: model desc
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - model.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-11-22 23:05:48'
+  .prophecy/metadata/sqlmodels/newmodel:
+    name: newmodel
+    schema: null
+    description: desc model
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - subpath/newmodel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-11-22 23:05:48'
+sqlSnapshots:
+  .prophecy/metadata/sqlsnapshots/snapshot:
+    name: snapshot
+    schema: null
+    description: null
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - snap.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-11-22 23:05:48'
+sqlTests:
+  .prophecy/metadata/sqltests/test1:
+    name: test1
+    description: null
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - test1.sql
+    testType: SingularDataTest
+    createdAt: '2024-11-22 23:05:48'
+  .prophecy/metadata/sqltests/test2:
+    name: test2
+    description: null
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - test2.sql
+    - .prophecy/sqltests/test2.json
+    testType: SingularDataTest
+    createdAt: '2024-11-22 23:05:48'
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - sources.yml
+    createdAt: '2024-11-22 23:05:48'
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema: null
+    description: seed desc
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - sources.yml
+    createdAt: '2024-11-22 23:05:48'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: source desc
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - sources.yml
+    createdAt: '2024-11-22 23:05:48'
+    tables: []
+  .prophecy/metadata/sqlsources/multipleFileSource:
+    name: multipleFileSource
+    description: multipleFileSource desc
+    author: s7srfxv3.a11blkm6@t6u5rkyp.com
+    files:
+    - sources1.yml
+    - mfs/src/multipleFileSource.yml
+    createdAt: '2024-11-22 23:05:48'
+    tables:
+    - name: table1
+      schema: null
+      description: descr 1
+      author: s7srfxv3.a11blkm6@t6u5rkyp.com
+      createdAt: '2024-11-22 23:05:48'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: s7srfxv3.a11blkm6@t6u5rkyp.com
+  createdAt: '2024-11-22 23:05:46'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
